@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.back_Srceen{
+    align-items: center;
+    height: 100vh;
+    padding-top: 10%;
+  
+    background: linear-gradient( #47635c, #64c4b9);
+}
+
+.wrapper{
+    
+    background: #151a1f;
+   
+    margin-inline: 20%;
+    /* margin-block: 20%; */
+    width: 420px;
+    height: 90%;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    background-color: #11def4;
+    margin: -10% 25% 1%  25%;
+    font-weight: 400;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.input-box input{
+    height: 90%;
+    width: 70%;
+    
+}
+.imageBox{
+    background-color:#0a0505;
+    border:1px solid #11def4;    
+    height:80px;
+    width: 80px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    border-radius:50%;
+    align-items:center ;
+    align-self: center;
+    
+}
+.bx {
+    margin-left: 10%;
+}
+.bx bxs-user {
+    height: 50px;
+    width:  50px;
+    
+}
+.check{
+    width: 20px;
+    height: 10px;
+    font-size: 16px;
+}
+.btn{
+    width: 75%;
+    height: 50px;
+    background-color: #11def4;
+    border-radius: 9px;
+    margin-left: 10%;
+    font-size:20px;
+}
+.rememberForgot{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 15%;
+
+}
